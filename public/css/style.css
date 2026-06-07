@@ -206,6 +206,8 @@ Header
 
 .navbar-default .navbar-brand {
     color: #e43c5c;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(228, 60, 92, 0.12);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -215,6 +217,7 @@ Header
 	margin: 0px 10px;
 	padding-bottom: 5px;
 	font-size: 14px;
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 /* Shared */
